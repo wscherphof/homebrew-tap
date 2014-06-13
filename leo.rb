@@ -2,13 +2,8 @@ require 'formula'
 
 class Leo < Formula
   homepage 'http://leoeditor.com/'
-  url 'http://sourceforge.net/projects/leo/files/Leo/4.10%20final/Leo-4.10-final.zip'
-  sha1 '1988c54d34d2233eda7ba2faa02066ff02575fec'
-  head 'https://code.launchpad.net/leo-editor', :using => :bzr
-  devel do
-    url 'http://sourceforge.net/projects/leo/files/Leo/4.11-a2/Leo-4.11-a2.zip'
-    sha1 '435c023df4d7b378ba10594a4b46ca83e82fc6b2'
-  end
+  url 'http://sourceforge.net/projects/leo/files/Leo/4.11-final/Leo-4.11-final.zip'
+  sha1 '648fa7e7d3660d1a358d6d6dc45af16ebea6c109'
 
   depends_on 'pyqt'
   depends_on 'enchant' => :recommended
